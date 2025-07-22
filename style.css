@@ -1,0 +1,57 @@
+
+body {
+    margin: 0;
+    font-family: 'Arial Rounded MT Bold', Arial, sans-serif;
+    background-color: #ff69b4; /* rosa chiclete */
+    color: white;
+    text-align: center;
+}
+
+header {
+    background-color: #ff1493; /* rosa mais escuro para contraste */
+    padding: 20px;
+}
+
+.logo {
+    max-width: 200px;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.cta {
+    padding: 50px 20px;
+}
+
+.botao {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: white;
+    color: #ff1493;
+    font-weight: bold;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.botao:hover {
+    background-color: #ffe4ec;
+}
+
+.produtos {
+    padding: 40px 20px;
+}
+
+footer {
+    background-color: #ff1493;
+    padding: 15px;
+    font-size: 14px;
+}
